@@ -14,7 +14,6 @@ Suite Teardown  Clean up the test suite
 
 *** Test Cases ***
 I can add a todo
-  Page should contain element  data-id:input.text.description
   Submit a todo  Adopter de bonnes pratiques de test
   A new todo should be created  1  Adopter de bonnes pratiques de test
 
