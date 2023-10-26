@@ -1,10 +1,9 @@
-# Keyword-Driven Testing with Robot Framework and Selenium WebDriver
-
+# Webapp under test
 This project is bootstrapped by [aurelia-cli](https://github.com/aurelia/cli).
 
 For more information, go to https://aurelia.io/docs/cli/webpack
 
-## Quick start with Robot Framework
+## Quick start
 
 Here's how to run the web application and the automated tests.
 
