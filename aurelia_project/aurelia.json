@@ -1,5 +1,5 @@
 {
-  "name": "aurelia-spike",
+  "name": "webapp-under-test",
   "type": "project:application",
   "paths": {
     "root": "src",
@@ -23,7 +23,7 @@
   "platform": {
     "hmr": false,
     "open": false,
-    "port": 9090,
+    "port": 8080,
     "host": "localhost",
     "output": "dist"
   }
