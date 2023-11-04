@@ -56,13 +56,10 @@
   "browserslist": [
     "defaults"
   ],
-  "scripts": {
-    "build": "webpack --env production",
-    "start": "webpack server",
-    "build:dev": "webpack",
-    "analyze": "webpack --env production --analyze",
-    "test": "au test"
-  },
+ "scripts": {
+    "start": "au run",
+    "build": "au build"
+ },
   "engines": {
     "node": ">=14.15.0"
   },
