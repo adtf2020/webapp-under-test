@@ -1,8 +1,24 @@
-# `webapp-under-test`
-
+# Webapp under test
 This project is bootstrapped by [aurelia-cli](https://github.com/aurelia/cli).
 
 For more information, go to https://aurelia.io/docs/cli/webpack
+
+## Quick start
+
+Here's how to run the web application and the automated tests.
+
+```
+node -v
+npm -v
+sudo npm install -g aurelia-cli
+cd path/to/project
+npm install
+au run --open
+python3 -m venv venv-kdt-rfs
+source venv-kdt-rfs/bin/activate
+python3 -m pip install -r requirements.txt
+robot --outputdir robot_output test/ui/todos.robot
+```
 
 ## Run dev app
 
